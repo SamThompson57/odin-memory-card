@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+
+#headder{
+  margin: 10px;
+}
+
+.gameBoard > div {
+  width: 200px;
+  border: 1px solid lightblue;
+  border-radius: 5px;
+  margin: auto;
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+
+.gameBoard{
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  justify-content: center;
+}
